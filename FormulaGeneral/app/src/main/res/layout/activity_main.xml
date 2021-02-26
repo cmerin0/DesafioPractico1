@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segun la formula:"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/generalformula" />
+
+    <EditText
+        android:id="@+id/edtValora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese el valor de a"
+        android:inputType="numberSigned"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/edtValorb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese el valor de b"
+        android:inputType="numberSigned"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:id="@+id/edtValorc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese el valor de c"
+        android:inputType="numberSigned"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_gravity="center"
+        android:text="Resultado" />
+
+    <TextView
+        android:id="@+id/txvResult"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="25sp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
